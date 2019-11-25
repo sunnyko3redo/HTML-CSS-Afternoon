@@ -1,0 +1,76 @@
+body {
+    background: rgb(22, 21, 21);
+    width: 100vw;
+    border: solid 10px;
+    /* border-color: tomato; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    position: sticky;
+    /* border: solid 2px green; */
+
+}
+
+.page-body {
+    background: white;
+    height: 2000px;
+    width: 10vw;
+    display: flex;
+    align-items: flex-end;
+    /* border: solid 2px orange; */
+}
+
+.mainbox {
+    background: rgb(250, 249, 249);
+    height: 700px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.learn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #ff0063;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+}
+
+.button2 {
+    background: black;
+    color: white;
+    border-radius: 2px;
+    width: 40px;
+    font-family: 'Lobester' cursive;
+    font-size: 16px;
+
+}
+
+.best-practics {
+    background: rgb(177, 33, 33);
+    height: 1000px;
+    width: 100vw;
+}
+
+.img1 {
+    width: 90vw;
+    height: 80vh;
+}
+
+a {
+    font-size: 12px;
+    font-weight: bold;
+}
